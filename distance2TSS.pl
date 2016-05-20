@@ -5,6 +5,10 @@ use strict;
 if(@ARGV<1)
 {
 	print "Usage perl $0 <TSS start> <peaks region>\n";
+	print "<TSS start formate>\n";
+	print "chr start_position	end_position \n";
+	print "<peaks regions formate>\n";
+	print "chr start_position end_position other_inform\n";
 	exit;
 }
 
